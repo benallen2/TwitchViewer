@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Twitch Viewer</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width">
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<script src="twitch.js" type="text/javascript"></script>
+<link href="twitch.css" type="text/css" rel="stylesheet" />
+<script src= "http://player.twitch.tv/js/embed/v1.js"></script>
+</head>
+<body>
+<div class="containter-fluid">
+	<div class="col-xs-12">
+		<div id="topbar">
+			<div class="row">
+				<h1 id="title">StarCraft II Twitch Viewer</h1>
+			</div>
+		</div>
+	</div>	
+</div><!-- end topbar container -->
+<div class="container-fluid col-xs-12 clearfix">
+	<!-- List Left -->
+	<div class="row" id="bodycont">	
+			<div class="col-xs-3" id="listcont">
+				<h5 id="listtitle">Streamers Online</h5>
+				<button id="refresh" class="btn btn-default btn-lg inline-block">Click for Streamers</button></br>
+				<div id="streamlist">
+
+				</div>
+				<h5 id="listtitle2">Featured Streamers</h5>
+				<div id="featuredlist">
+				</div>
+			</div>
+			
+<!-- begin Video Embed -->
+	
+	<div class="col-xs-9" id="vidcont">
+
+	<div id="mainvid">
+
+	<div id="summary" class="col-xs-9 col-xs-offset-3">
+
+	</div>
+</div><!-- close mainvid container -->
+</div><!-- closing Video Container -->
+
+</div><!-- Closing sidebar/vid row -->
+	
+			
+				
+			
+
+</div><!-- Closing main container -->
+
+
+</body>
+</html>
